@@ -1,0 +1,63 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Styles for the body */
+
+body {
+	font-family: Lato, "Open Sans", Georgia, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #202030;
+	background-color: #b7e5ff;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-color: #FFFFFF;
+}
+
+.resume-main {
+	background-color: #FFFFFF;
+}
+
+.resume-aside {
+	background-color: #85a3c9;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #b7e5ff;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+
+.custom-name {
+    font-family: 'Montserrat', sans-serif;
+    color: #85a3c9;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.bg-warning {
+    background-color: #FFFFFF !important; /* Replace with your desired color */
+}
