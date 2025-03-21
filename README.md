@@ -2,4 +2,4 @@
 
 ## See it live!
 
-Click on <https://buas-media-interactive.github.io/prj4-cv/> to see what the résumé looks like when published!
+Click on https://bubu9021.github.io/bubucv/ to see what the résumé looks like when published!
